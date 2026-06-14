@@ -1,0 +1,660 @@
+{
+  "briefs": [
+    {
+      "persona": "VIP B2B Accounts",
+      "summary": {
+        "persona": "VIP B2B Accounts",
+        "customers": 689,
+        "customer_share_pct": 15.9,
+        "revenue": 5343349.0,
+        "revenue_share_pct": 60.1,
+        "avg_monetary": 7755.0,
+        "median_monetary": 3559.0,
+        "avg_frequency": 14.0,
+        "avg_recency_days": 11.0
+      },
+      "alert": {
+        "persona": "VIP B2B Accounts",
+        "recency_threshold_days": 30,
+        "at_risk_count": 40,
+        "at_risk_revenue": 285316.0,
+        "top_5_to_recover": [
+          {
+            "CustomerID": 16029,
+            "Recency": 39,
+            "Frequency": 63,
+            "Monetary": 80850.84,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 12678,
+            "Recency": 42,
+            "Frequency": 12,
+            "Monetary": 17628.46,
+            "country": "France"
+          },
+          {
+            "CustomerID": 15513,
+            "Recency": 33,
+            "Frequency": 19,
+            "Monetary": 14758.22,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 17865,
+            "Recency": 31,
+            "Frequency": 20,
+            "Monetary": 10526.32,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 16843,
+            "Recency": 43,
+            "Frequency": 16,
+            "Monetary": 10196.57,
+            "country": "United Kingdom"
+          }
+        ]
+      },
+      "opportunity": null,
+      "recommendation": {
+        "persona": "VIP B2B Accounts",
+        "campaign": "Named Account Program",
+        "priority": "HIGHEST",
+        "channel": "Direct human (Account Manager) + personalized email",
+        "budget_tier": "Highest per-customer spend",
+        "kpis": [
+          "Account retention rate",
+          "Revenue per account YoY",
+          "NPS"
+        ],
+        "actions": [
+          "Assign Account Managers to top 50 within this cluster",
+          "Custom pricing tier and quarterly business reviews",
+          "Reorder workflows to remove friction on repeat orders",
+          "Suppress from generic bulk-email campaigns"
+        ]
+      },
+      "llm_prompt_template": "You are a senior CRM strategist. Write a 6-bullet executive brief for the 'VIP B2B Accounts' segment using ONLY the data provided. Tone: CMO-ready, no jargon, every claim tied to a number. Structure: who they are, why they matter, top risk, top opportunity, recommended campaign, named KPI to measure success."
+    },
+    {
+      "persona": "Loyal Repeat Buyers",
+      "summary": {
+        "persona": "Loyal Repeat Buyers",
+        "customers": 899,
+        "customer_share_pct": 20.7,
+        "revenue": 2260131.0,
+        "revenue_share_pct": 25.4,
+        "avg_monetary": 2514.0,
+        "median_monetary": 1654.0,
+        "avg_frequency": 4.0,
+        "avg_recency_days": 67.0
+      },
+      "alert": {
+        "persona": "Loyal Repeat Buyers",
+        "recency_threshold_days": 90,
+        "at_risk_count": 209,
+        "at_risk_revenue": 537267.0,
+        "top_5_to_recover": [
+          {
+            "CustomerID": 12346,
+            "Recency": 326,
+            "Frequency": 1,
+            "Monetary": 77183.6,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 15749,
+            "Recency": 235,
+            "Frequency": 3,
+            "Monetary": 44534.3,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 15098,
+            "Recency": 182,
+            "Frequency": 3,
+            "Monetary": 39916.5,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 16180,
+            "Recency": 100,
+            "Frequency": 8,
+            "Monetary": 10254.18,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 13093,
+            "Recency": 276,
+            "Frequency": 8,
+            "Monetary": 7832.47,
+            "country": "United Kingdom"
+          }
+        ]
+      },
+      "opportunity": {
+        "source_persona": "Loyal Repeat Buyers",
+        "target_persona": "VIP B2B Accounts",
+        "source_customers": 899,
+        "source_avg_monetary": 2514.0,
+        "target_avg_monetary": 7755.0,
+        "per_customer_lift": 5241.0,
+        "total_opportunity_if_all_migrated": 4711815.0,
+        "realistic_10pct_migration": 471182.0
+      },
+      "recommendation": {
+        "persona": "Loyal Repeat Buyers",
+        "campaign": "Tier-Up to VIP",
+        "priority": "HIGH",
+        "channel": "Triggered email + retargeting + loyalty platform",
+        "budget_tier": "High",
+        "kpis": [
+          "Migration rate to VIP",
+          "Avg basket value",
+          "Frequency uplift"
+        ],
+        "actions": [
+          "Volume-discount thresholds that hint at VIP-tier rewards",
+          "Loyalty tier program with VIP benefits at qualifying threshold",
+          "Personalized cross-sell based on category affinity"
+        ]
+      },
+      "llm_prompt_template": "You are a senior CRM strategist. Write a 6-bullet executive brief for the 'Loyal Repeat Buyers' segment using ONLY the data provided. Tone: CMO-ready, no jargon, every claim tied to a number. Structure: who they are, why they matter, top risk, top opportunity, recommended campaign, named KPI to measure success."
+    },
+    {
+      "persona": "Engaged New Buyers",
+      "summary": {
+        "persona": "Engaged New Buyers",
+        "customers": 1140,
+        "customer_share_pct": 26.3,
+        "revenue": 683417.0,
+        "revenue_share_pct": 7.7,
+        "avg_monetary": 599.0,
+        "median_monetary": 584.0,
+        "avg_frequency": 3.1,
+        "avg_recency_days": 71.0
+      },
+      "alert": {
+        "persona": "Engaged New Buyers",
+        "recency_threshold_days": 45,
+        "at_risk_count": 536,
+        "at_risk_revenue": 296260.0,
+        "top_5_to_recover": [
+          {
+            "CustomerID": 14573,
+            "Recency": 180,
+            "Frequency": 9,
+            "Monetary": 1639.82,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 14414,
+            "Recency": 92,
+            "Frequency": 7,
+            "Monetary": 1496.98,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 14541,
+            "Recency": 59,
+            "Frequency": 8,
+            "Monetary": 1453.35,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 18116,
+            "Recency": 68,
+            "Frequency": 8,
+            "Monetary": 1403.11,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 17262,
+            "Recency": 52,
+            "Frequency": 5,
+            "Monetary": 1253.36,
+            "country": "United Kingdom"
+          }
+        ]
+      },
+      "opportunity": {
+        "source_persona": "Engaged New Buyers",
+        "target_persona": "Loyal Repeat Buyers",
+        "source_customers": 1140,
+        "source_avg_monetary": 599.0,
+        "target_avg_monetary": 2514.0,
+        "per_customer_lift": 1915.0,
+        "total_opportunity_if_all_migrated": 2182600.0,
+        "realistic_10pct_migration": 218260.0
+      },
+      "recommendation": {
+        "persona": "Engaged New Buyers",
+        "campaign": "30-Day Nurture (H3 lever \u2014 11.9x CLV multiplier)",
+        "priority": "HIGH (highest aggregate ROI)",
+        "channel": "Automated lifecycle email + onboarding",
+        "budget_tier": "Medium per-customer",
+        "kpis": [
+          "2nd-purchase rate within 30 days",
+          "Cohort retention at month 3"
+        ],
+        "actions": [
+          "Welcome series within 24 hours of first purchase",
+          "Day-25 second-purchase trigger email (lands BEFORE the 73-day median repeat cadence)",
+          "Product education content for category breadth",
+          "Light incentive on 2nd order to reduce friction"
+        ]
+      },
+      "llm_prompt_template": "You are a senior CRM strategist. Write a 6-bullet executive brief for the 'Engaged New Buyers' segment using ONLY the data provided. Tone: CMO-ready, no jargon, every claim tied to a number. Structure: who they are, why they matter, top risk, top opportunity, recommended campaign, named KPI to measure success."
+    },
+    {
+      "persona": "Casual Low-Value Buyers",
+      "summary": {
+        "persona": "Casual Low-Value Buyers",
+        "customers": 807,
+        "customer_share_pct": 18.6,
+        "revenue": 476183.0,
+        "revenue_share_pct": 5.4,
+        "avg_monetary": 590.0,
+        "median_monetary": 415.0,
+        "avg_frequency": 1.1,
+        "avg_recency_days": 146.0
+      },
+      "alert": {
+        "persona": "Casual Low-Value Buyers",
+        "recency_threshold_days": 180,
+        "at_risk_count": 300,
+        "at_risk_revenue": 169038.0,
+        "top_5_to_recover": [
+          {
+            "CustomerID": 12590,
+            "Recency": 211,
+            "Frequency": 2,
+            "Monetary": 9864.26,
+            "country": "Germany"
+          },
+          {
+            "CustomerID": 13135,
+            "Recency": 197,
+            "Frequency": 1,
+            "Monetary": 3096.0,
+            "country": "United Kingdom"
+          },
+          {
+            "CustomerID": 14439,
+            "Recency": 320,
+            "Frequency": 1,
+            "Monetary": 2661.24,
+            "country": "Greece"
+          },
+          {
+            "CustomerID": 12501,
+            "Recency": 337,
+            "Frequency": 1,
+            "Monetary": 2169.39,
+            "country": "Germany"
+          },
+          {
+            "CustomerID": 17597,
+            "Recency": 214,
+            "Frequency": 1,
+            "Monetary": 2044.37,
+            "country": "United Kingdom"
+          }
+        ]
+      },
+      "opportunity": {
+        "source_persona": "Casual Low-Value Buyers",
+        "target_persona": "Engaged New Buyers",
+        "source_customers": 807,
+        "source_avg_monetary": 590.0,
+        "target_avg_monetary": 599.0,
+        "per_customer_lift": 9.0,
+        "total_opportunity_if_all_migrated": 7604.0,
+        "realistic_10pct_migration": 760.0
+      },
+      "recommendation": {
+        "persona": "Casual Low-Value Buyers",
+        "campaign": "Quarterly Reactivation Promo",
+        "priority": "MEDIUM",
+        "channel": "Bulk email + light retargeting",
+        "budget_tier": "Low-medium",
+        "kpis": [
+          "Reactivation rate",
+          "Cost per reactivated customer"
+        ],
+        "actions": [
+          "Quarterly seasonal promo email (avoid over-frequency)",
+          "Light retargeting around peak shopping windows",
+          "90-day dormancy reactivation offer"
+        ]
+      },
+      "llm_prompt_template": "You are a senior CRM strategist. Write a 6-bullet executive brief for the 'Casual Low-Value Buyers' segment using ONLY the data provided. Tone: CMO-ready, no jargon, every claim tied to a number. Structure: who they are, why they matter, top risk, top opportunity, recommended campaign, named KPI to measure success."
+    },
+    {
+      "persona": "Dormant Former Buyers",
+      "summary": {
+        "persona": "Dormant Former Buyers",
+        "customers": 803,
+        "customer_share_pct": 18.5,
+        "revenue": 124130.0,
+        "revenue_share_pct": 1.4,
+        "avg_monetary": 155.0,
+        "median_monetary": 154.0,
+        "avg_frequency": 1.1,
+        "avg_recency_days": 168.0
+      },
+      "alert": null,
+      "opportunity": null,
+      "recommendation": {
+        "persona": "Dormant Former Buyers",
+        "campaign": "Annual Touch / Suppress",
+        "priority": "LOW",
+        "channel": "Bulk email (1x per year max)",
+        "budget_tier": "Lowest",
+        "kpis": [
+          "Cost per reactivation",
+          "Suppression list hygiene"
+        ],
+        "actions": [
+          "Single annual reactivation email",
+          "Suppress from frequency-based campaigns",
+          "Use as lookalike-exclusion seed for paid media"
+        ]
+      },
+      "llm_prompt_template": "You are a senior CRM strategist. Write a 6-bullet executive brief for the 'Dormant Former Buyers' segment using ONLY the data provided. Tone: CMO-ready, no jargon, every claim tied to a number. Structure: who they are, why they matter, top risk, top opportunity, recommended campaign, named KPI to measure success."
+    }
+  ],
+  "churn_alerts": [
+    {
+      "persona": "VIP B2B Accounts",
+      "recency_threshold_days": 30,
+      "at_risk_count": 40,
+      "at_risk_revenue": 285316.0,
+      "top_5_to_recover": [
+        {
+          "CustomerID": 16029,
+          "Recency": 39,
+          "Frequency": 63,
+          "Monetary": 80850.84,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 12678,
+          "Recency": 42,
+          "Frequency": 12,
+          "Monetary": 17628.46,
+          "country": "France"
+        },
+        {
+          "CustomerID": 15513,
+          "Recency": 33,
+          "Frequency": 19,
+          "Monetary": 14758.22,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 17865,
+          "Recency": 31,
+          "Frequency": 20,
+          "Monetary": 10526.32,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 16843,
+          "Recency": 43,
+          "Frequency": 16,
+          "Monetary": 10196.57,
+          "country": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "persona": "Loyal Repeat Buyers",
+      "recency_threshold_days": 90,
+      "at_risk_count": 209,
+      "at_risk_revenue": 537267.0,
+      "top_5_to_recover": [
+        {
+          "CustomerID": 12346,
+          "Recency": 326,
+          "Frequency": 1,
+          "Monetary": 77183.6,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 15749,
+          "Recency": 235,
+          "Frequency": 3,
+          "Monetary": 44534.3,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 15098,
+          "Recency": 182,
+          "Frequency": 3,
+          "Monetary": 39916.5,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 16180,
+          "Recency": 100,
+          "Frequency": 8,
+          "Monetary": 10254.18,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 13093,
+          "Recency": 276,
+          "Frequency": 8,
+          "Monetary": 7832.47,
+          "country": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "persona": "Engaged New Buyers",
+      "recency_threshold_days": 45,
+      "at_risk_count": 536,
+      "at_risk_revenue": 296260.0,
+      "top_5_to_recover": [
+        {
+          "CustomerID": 14573,
+          "Recency": 180,
+          "Frequency": 9,
+          "Monetary": 1639.82,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 14414,
+          "Recency": 92,
+          "Frequency": 7,
+          "Monetary": 1496.98,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 14541,
+          "Recency": 59,
+          "Frequency": 8,
+          "Monetary": 1453.35,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 18116,
+          "Recency": 68,
+          "Frequency": 8,
+          "Monetary": 1403.11,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 17262,
+          "Recency": 52,
+          "Frequency": 5,
+          "Monetary": 1253.36,
+          "country": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "persona": "Casual Low-Value Buyers",
+      "recency_threshold_days": 180,
+      "at_risk_count": 300,
+      "at_risk_revenue": 169038.0,
+      "top_5_to_recover": [
+        {
+          "CustomerID": 12590,
+          "Recency": 211,
+          "Frequency": 2,
+          "Monetary": 9864.26,
+          "country": "Germany"
+        },
+        {
+          "CustomerID": 13135,
+          "Recency": 197,
+          "Frequency": 1,
+          "Monetary": 3096.0,
+          "country": "United Kingdom"
+        },
+        {
+          "CustomerID": 14439,
+          "Recency": 320,
+          "Frequency": 1,
+          "Monetary": 2661.24,
+          "country": "Greece"
+        },
+        {
+          "CustomerID": 12501,
+          "Recency": 337,
+          "Frequency": 1,
+          "Monetary": 2169.39,
+          "country": "Germany"
+        },
+        {
+          "CustomerID": 17597,
+          "Recency": 214,
+          "Frequency": 1,
+          "Monetary": 2044.37,
+          "country": "United Kingdom"
+        }
+      ]
+    }
+  ],
+  "revenue_opportunities": [
+    {
+      "source_persona": "Loyal Repeat Buyers",
+      "target_persona": "VIP B2B Accounts",
+      "source_customers": 899,
+      "source_avg_monetary": 2514.0,
+      "target_avg_monetary": 7755.0,
+      "per_customer_lift": 5241.0,
+      "total_opportunity_if_all_migrated": 4711815.0,
+      "realistic_10pct_migration": 471182.0
+    },
+    {
+      "source_persona": "Engaged New Buyers",
+      "target_persona": "Loyal Repeat Buyers",
+      "source_customers": 1140,
+      "source_avg_monetary": 599.0,
+      "target_avg_monetary": 2514.0,
+      "per_customer_lift": 1915.0,
+      "total_opportunity_if_all_migrated": 2182600.0,
+      "realistic_10pct_migration": 218260.0
+    },
+    {
+      "source_persona": "Casual Low-Value Buyers",
+      "target_persona": "Engaged New Buyers",
+      "source_customers": 807,
+      "source_avg_monetary": 590.0,
+      "target_avg_monetary": 599.0,
+      "per_customer_lift": 9.0,
+      "total_opportunity_if_all_migrated": 7604.0,
+      "realistic_10pct_migration": 760.0
+    }
+  ],
+  "campaign_recommendations": [
+    {
+      "persona": "VIP B2B Accounts",
+      "campaign": "Named Account Program",
+      "priority": "HIGHEST",
+      "channel": "Direct human (Account Manager) + personalized email",
+      "budget_tier": "Highest per-customer spend",
+      "kpis": [
+        "Account retention rate",
+        "Revenue per account YoY",
+        "NPS"
+      ],
+      "actions": [
+        "Assign Account Managers to top 50 within this cluster",
+        "Custom pricing tier and quarterly business reviews",
+        "Reorder workflows to remove friction on repeat orders",
+        "Suppress from generic bulk-email campaigns"
+      ]
+    },
+    {
+      "persona": "Loyal Repeat Buyers",
+      "campaign": "Tier-Up to VIP",
+      "priority": "HIGH",
+      "channel": "Triggered email + retargeting + loyalty platform",
+      "budget_tier": "High",
+      "kpis": [
+        "Migration rate to VIP",
+        "Avg basket value",
+        "Frequency uplift"
+      ],
+      "actions": [
+        "Volume-discount thresholds that hint at VIP-tier rewards",
+        "Loyalty tier program with VIP benefits at qualifying threshold",
+        "Personalized cross-sell based on category affinity"
+      ]
+    },
+    {
+      "persona": "Engaged New Buyers",
+      "campaign": "30-Day Nurture (H3 lever \u2014 11.9x CLV multiplier)",
+      "priority": "HIGH (highest aggregate ROI)",
+      "channel": "Automated lifecycle email + onboarding",
+      "budget_tier": "Medium per-customer",
+      "kpis": [
+        "2nd-purchase rate within 30 days",
+        "Cohort retention at month 3"
+      ],
+      "actions": [
+        "Welcome series within 24 hours of first purchase",
+        "Day-25 second-purchase trigger email (lands BEFORE the 73-day median repeat cadence)",
+        "Product education content for category breadth",
+        "Light incentive on 2nd order to reduce friction"
+      ]
+    },
+    {
+      "persona": "Casual Low-Value Buyers",
+      "campaign": "Quarterly Reactivation Promo",
+      "priority": "MEDIUM",
+      "channel": "Bulk email + light retargeting",
+      "budget_tier": "Low-medium",
+      "kpis": [
+        "Reactivation rate",
+        "Cost per reactivated customer"
+      ],
+      "actions": [
+        "Quarterly seasonal promo email (avoid over-frequency)",
+        "Light retargeting around peak shopping windows",
+        "90-day dormancy reactivation offer"
+      ]
+    },
+    {
+      "persona": "Dormant Former Buyers",
+      "campaign": "Annual Touch / Suppress",
+      "priority": "LOW",
+      "channel": "Bulk email (1x per year max)",
+      "budget_tier": "Lowest",
+      "kpis": [
+        "Cost per reactivation",
+        "Suppression list hygiene"
+      ],
+      "actions": [
+        "Single annual reactivation email",
+        "Suppress from frequency-based campaigns",
+        "Use as lookalike-exclusion seed for paid media"
+      ]
+    }
+  ]
+}
