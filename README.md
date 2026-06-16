@@ -36,8 +36,7 @@ A UK-based online retailer (38 countries · 4,338 customers · 541,909 transacti
 | 5. RFM Analysis | ✅ | 9 segments · H5 · £1.06M recoverable |
 | 6. ML Segmentation | ✅ | 5 personas · K=5 · PPTX exec deck |
 | 7. AI Marketing Insights Agent | ✅ | Agentic AI · system design · prototype · architecture deck |
-| 8. Resume Integration | ✅ | 14 bullets · 5 LinkedIn posts · 7 STAR stories · EN+KR descriptions · cover letter |
-| 9. Application Package | ✅ | **Resume PDF · master deck (18 slides) · interview kit (30 Q&A) · master portfolio DOCX · application checklist** |
+
 
 ---
 
@@ -76,17 +75,9 @@ A UK-based online retailer (38 countries · 4,338 customers · 541,909 transacti
 - Hallucination eliminated by construction — not by hoping
 - DOCX system design + 9-slide PPTX architecture deck + working prototype
 
-### Phase 8 — Portfolio Translation
-- 14 quantified resume bullets · 5 LinkedIn posts · 7 STAR stories
-- Project descriptions in **English + Korean** across 3 lengths
-- Avelabs-specific bilingual cover letter
 
-### Phase 9 — Final Application Package
-- 1-page designer-quality Resume PDF
-- 18-slide Final Portfolio Master Deck
-- 30-Q&A Interview Preparation Kit (technical · behavioral · Avelabs-specific · curveballs)
-- Single-file Master Portfolio Document (DOCX)
-- Application Checklist with channel strategy and submission timeline
+
+
 
 ---
 
@@ -125,16 +116,7 @@ Customer-Segmentation-CRM-Intelligence/
 │   └── 09_Final_Portfolio_Deck.pptx           ← ✅ NEW (Phase 9, 18 slides)
 ├── images/
 │   └── chart1 … chart22.png                   ← 22 hero charts
-├── resume_assets/
-│   ├── 08_resume_bullets.docx
-│   ├── 08_linkedin_content_pack.docx
-│   ├── 08_star_interview_stories.docx
-│   ├── 08_project_descriptions.md             ← EN + KR · 3 lengths
-│   ├── 08_avelabs_cover_letter.docx           ← EN + KR
-│   ├── 09_Resume_v1.pdf                       ← ✅ NEW (Phase 9)
-│   ├── 09_Interview_Prep_Kit.docx             ← ✅ NEW (Phase 9, 30 Q&A)
-│   ├── 09_Master_Portfolio_Document.docx      ← ✅ NEW (Phase 9)
-│   └── 09_Application_Checklist.md            ← ✅ NEW (Phase 9)
+
 ```
 
 ---
@@ -172,9 +154,9 @@ A working AI Marketing Insights Agent on top of the 5-persona segmentation.
 ---
 
 ## 📬 Contact
-- LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
-- GitHub: [Your GitHub]
+- LinkedIn: https://www.linkedin.com/in/stabilinivlada/
+- Email: vlstabilini@naver.com
+- GitHub: https://github.com/vlstabilini
 
 ---
 
